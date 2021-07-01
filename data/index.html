@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Smart Home</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Smart Home</h1>
+
+		<div class="tempe">
+			<h2>Temperature</h2>
+			<p><span id="tempe" > 13</span> &deg;</p>
+		</div>
+		<div class="curtain">
+			<h2>Curtain Control</h2>
+			<input type="range" min="0" max="180" value="0" id="slide">
+			<p id ="cur"></p>
+		</div>
+		<div class="lights">
+			<h2>LIGHTS CONTROL</h2>
+			<div class="ligh">
+				<p>Room</p>
+				<input type="checkbox" class="l" id = "room">
+			</div>
+			<div class="ligh">
+				<p>living room</p>
+				<input type="checkbox" class="l" id = "liv">
+			</div>
+			<div class="ligh">
+				<p>Garage</p>
+				<input type="checkbox" class="l" id = "gar">
+			</div>
+			<div class="ligh">
+				<p>Dining room</p>
+				<input type="checkbox" class="l" id = "din">
+			</div>
+		</div>
+	</div>
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
